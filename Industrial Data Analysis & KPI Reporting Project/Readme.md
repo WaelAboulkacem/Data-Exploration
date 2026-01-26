@@ -1,5 +1,5 @@
 # Industrial Data Analysis & KPI Reporting  
-## High-Precision Manufacturing – Watchmaking Case Study (Switzerland)
+## High-Precision Manufacturing – Watchmaking Case Study 
 
 ## Project Overview
 This project simulates an industrial data analysis scenario in a Swiss high-precision manufacturing environment within the watchmaking sector.  
