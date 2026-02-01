@@ -1,21 +1,21 @@
-# Industrial Data Analysis & KPI Reporting  
-## High-Precision Manufacturing – Watchmaking Case Study 
+# Supply Chain Risk & Health Analysis
+## Data Exploration • KPI Framework • Python Analysis • Power BI Dashboard
 
 ## Project Overview
-This project simulates an industrial data analysis scenario in a Swiss high-precision manufacturing environment within the watchmaking sector.  
-The focus is on analyzing production and machine-level data to evaluate performance, quality, and operational efficiency.
+This project analyzes the supply chain performance of a beauty & makeup product company.
+It focuses on identifying inventory risks, demand pressure, lead-time bottlenecks, and quality issues using a combination of Python and Power BI.
+The goal is to simulate the typical work of a Supply Chain or Data Analyst Intern, including:
 
 ## Objectives
-- Clean and prepare raw industrial production data
-- Analyze key manufacturing KPIs with a strong focus on quality and precision
-- Identify performance bottlenecks related to machine downtime and defects
-- Visualize KPIs to support operational decision-making
-- Provide clear, written data-driven insights using industrial data storytelling
+- Data cleaning and exploration
+- KPI definition and calculation
+- Risk assessment
+- Dashboard creation
+- Business reporting
 
 ## Tools & Technologies
 - Python (Pandas, NumPy)
-- Data visualization with Matplotlib
-- SQL for KPI aggregation and analysis
+- Data visualization with Power BI
 - Jupyter Notebook for analysis and reporting
 
 ## Key KPIs Analyzed
@@ -26,8 +26,39 @@ The focus is on analyzing production and machine-level data to evaluate performa
 - Energy Consumption per Unit
 
 ## Project Structure
-The analysis is conducted in a Jupyter Notebook and follows a structured approach:
-1. Data understanding and cleaning  
-2. KPI calculation and validation  
-3. KPI visualization  
-4. Interpretation of results and conclusions
+
+##### The dataset, it contains 100 SKUs across multiple supply-chain dimensions, including:
+Inventory levels
+Sales and demand
+Supplier information
+Shipping modes and costs ...
+
+##### The analysis is conducted in a Jupyter Notebook and follows a structured approach:
+1. data_exploration.ipynb: 
+Dataset inspection
+Missing value checks
+Outlier detection
+
+2. kpi_definitions.md
+Description of all KPIs
+Business interpretation
+Risk thresholds
+Rationale for each KPI
+
+3. kpi_calculation.ipynb
+Calculation of all KPIs using Python
+Includes:
+Stock Coverage Ratio
+Demand Pressure Index
+Total Lead Time
+Manufacturing Lead Time Share
+Cost performance KPIs
+Quality exposure metrics
+Final KPI dataset exported for Power BI
+
+##### Power BI Dashboard
+The Power BI Dashboard visualizes the main supply chain risk areas:
+Inventory and Demand ; Lead Time ; Quality and Cost 
+
+Made by Wael Aboulkacem
+Linkedin: waelaboulkacem
