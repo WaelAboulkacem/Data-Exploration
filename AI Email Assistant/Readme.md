@@ -73,7 +73,7 @@ Before sending any answers a human reviews the AI responses
 Install n8n (local, Docker, or cloud)
 Import workflow template JSON
 
-##### Gmail
+###### Gmail
 Create a Gmail OAuth2 credential in n8n
 Connect inbox for email triggers
 
@@ -81,7 +81,7 @@ Connect inbox for email triggers
 Create an API key
 Configure GPT model node in n8n 
 
-##### gotoHuman
+###### gotoHuman
 Create a free account
 Create a review template (e.g., “Email Smart Reply”)
 Add your API key in the gotoHuman node
